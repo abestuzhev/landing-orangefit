@@ -1,0 +1,306 @@
+@media (max-width: 1199px) {
+    .header_top div.button_ input,
+    .header_top div.button_ {
+        width: 150px;
+        font-size:120%;
+        height: 40px;
+    }
+    body {
+        font-size: 15px;
+    }
+    .modal_form .block_form {
+        width:65%
+    }
+    .footer .img img:first-child {
+        margin-right: 20px;
+    }
+    .header_top .logo img:first-child {
+        height: 44px;
+    }
+    .header_top .logo img:last-child {
+        height: 66px;
+    }
+    .header .two,
+    .header .block_button,
+    .timer {
+        padding-left: 530px;
+    }
+    .services_club .img {
+        height: 130px;
+    }
+    .footer {
+        background: url("../img/footer_back.png") no-repeat bottom center/ cover;
+        margin-top: -80px;
+        padding-top: 90px;
+    }
+    .footer .scroll {
+        margin-top: -20px;
+    }
+    .services_club {
+        background: url("../img/services_back.png")no-repeat top left / cover ;
+        padding-bottom: 80px;
+    }
+    .photo .item {
+         height: 300px;
+     }
+    .photo span.img {
+        height: 82%;
+    }
+    .photo {
+        background: url("../img/photo_back.png") no-repeat top left /cover;
+        margin-bottom: 0;
+        padding-bottom: 60px;
+    }
+    .photo .text {
+        color:#ffffff;
+    }
+}
+@media (max-width: 991px) {
+    .header_top div.button_ {
+        margin-left: 0px;
+    }
+    .header_top p {
+        font-size: 110%;
+    }
+    .modal_form .block_form {
+        width: 80%;
+    }
+    .footer .scroll {
+        margin-top: -55px;
+    }
+    .modal_services .img {
+        display: none;
+    }
+    .modal_services .text {
+        width: 100%;
+    }
+    .block_card {
+        background: none;
+    }
+    .header .one,
+    .header .two, .header .block_button,
+    .timer {
+        padding-left: 0;
+    }
+    .header .one .h1 {
+        font-size: 235%;
+    }
+    .photo .arrow_right {
+        right: -10px;
+    }
+    .photo .arrow_left {
+        left: -10px;
+    }
+    .services_club .block {
+        width: 100%;
+    }
+    .services_row {
+        width: 100%;
+        float: left;
+    }
+    .services_club .block {
+        margin-bottom: 15px;
+    }
+    .services_club .overflow_ {
+        width: 85%;
+    }
+
+    /*redesign desember 2016*/
+
+    .header_top .timer {
+      padding: 0;
+      padding-bottom: 10px;
+    }
+
+    .header_top div.button_ {
+      margin-left: 0;
+    }
+
+    .header_top .timer {
+        height: 34px;
+    }
+    .header_top div.button_ {
+      margin: 5px 0 10px;
+    }
+}
+@media (max-width:767px) {
+    .header_top div.button_ {
+        margin: 0 auto 15px;
+    }
+    .header_top p {
+        display: none;
+    }
+    .header_top div.button_ {
+        display: none;
+    }
+    .modal_services .block {
+        width: 90%;
+    }
+    .header input {
+        width: 230px;
+        font-size: 190%;
+    }
+    .header p.button {
+        width: 230px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .modal_form .button input {
+        font-size: 130%;
+    }
+    .modal_form .block_form {
+        width: 100%;
+    }
+    .services_club .overflow_ {
+        width: 82%;
+    }
+    .photo .photo_hide {
+        width:90%;
+    }
+    .footer .scroll {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .header_top .logo {
+        text-align: center;
+    }
+    .header_top p {
+        float: none;
+        text-align: center;
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+    .footer p:first-child {
+        padding-top: 15px;
+    }
+    .header .one .card_month {
+        margin-top: 0;
+    }
+    .header_top .logo img:last-child {
+        height: 64px;
+    }
+    .block_card {
+        height: auto;
+        padding-bottom: 25px;
+        padding-top: 73px;
+    }
+    .photo {
+        margin-top: 0;
+    }
+    .footer .img {
+        text-align: center;
+    }
+    .footer .img img {
+        float: none;
+        vertical-align: top;
+    }
+    .opacity {
+        display: block;
+    }
+    .footer {
+        height: auto;
+        padding-top: 30px;
+        background: #1b467d;
+    }
+
+    /*redesign desember 2016*/
+
+    .timer > div {
+      text-align: center !important;
+      min-width: 100% !important;
+    }
+
+    .timer {
+      margin-bottom: 10px;
+    }
+
+    .timer-slide-inner,
+    .timer-separator {
+      font-size: 24px !important;
+    }
+}
+@media (max-width:600px) {
+    .modal_form .input {
+        padding-left: 65px;
+    }
+}
+@media (max-width:600px) {
+    .photo span.img::before {
+        display: none;
+    }
+    .services_modal::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .services_modal {
+        text-align: center;
+    }
+    .services_club .img {
+        width: 195px;
+        float: none;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .services_club .text {
+        width: 100%;
+    }
+    .services_club h3 {
+        text-align: center;
+    }
+}
+@media (max-width:550px) {
+    .modal_form .input {
+        padding-left: 50px;
+    }
+}
+@media (max-width:500px) {
+    .modal_form .input input[type="text"] {
+        width: 90%;
+    }
+    .header .one .h1 {
+        font-size: 200%;
+    }
+    .modal_form .input:nth-child(3) p {
+        padding-top: 0;
+    }
+    .modal_form .input p {
+        padding-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:450px) {
+    .modal_form .input {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .modal_form .input input[type="text"] {
+        width: 100%;
+    }
+}
+@media (max-width:430px) {
+    .header .one .h1 {
+        font-size: 160%;
+    }
+}
+@media (max-width:380px) {
+    .conditions p {
+        width: 75%;
+    }
+}
+@media (max-width:350px) {
+    .header .one .h1 {
+        font-size: 145%;
+    }
+}
+@media (max-width:320px) {
+    .footer .img img:last-child {
+        margin: 20px 0 8px;
+    }
+
+	.header .two .price {
+		font-size:440%;
+		font-size:440%;
+	}
+}

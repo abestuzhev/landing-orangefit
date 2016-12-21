@@ -1,0 +1,113 @@
+ .two .address {
+   background: url("img/address.png")no-repeat top left;
+    padding-left: 70px;
+    min-height: 66px;
+}
+ .two .clock {
+   background: url("img/clock.png")no-repeat top left;
+    padding-left: 70px;
+    min-height: 66px;
+}
+ .two .services {
+   background: url("img/barbell.png")no-repeat top left;
+    padding-left: 70px;
+    min-height: 66px;
+    font-weight: 500;
+    font-size: 130%;
+}
+ .two .address span {
+   display: block;
+    font-weight: 500;
+    font-size: 130%;
+}
+ .two .clock span.blue {
+    display: block;
+    font-weight: 500;
+    font-size: 130%;
+}
+ .two .services span {
+    display: block;
+    font-weight: 400;
+    font-size: 70%;
+    margin-bottom: 4px;
+}
+ .two .services span:first-child {
+    margin-top: 4px;
+}
+ .two .price {
+    background: url("img/rub.png") no-repeat center right;
+    display: inline-block;
+    font-size: 450%;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-top: 30px;
+}
+.blue {
+    color:#072d43
+}
+.blue_b {
+    background-color: #072d43;
+}
+.orange {
+    color:#ff7500;
+}
+.orange_b {
+    background-color: #ff7500;
+}
+
+span.card {
+    font-weight: bold;
+    font-size: 170%;
+    display: block;
+}
+
+.price.non {
+	background: none;
+	text-decoration: line-through;
+	color:#072d43;
+	font-size: 250% !important;
+	background-size: auto 55% !important;
+	padding-right: 30px !important;
+}
+
+.biger_ora {
+	color:#ff7500;
+	background:none !important;
+}
+
+.price.non {
+    background: none;
+    text-decoration: line-through;
+    color: #072d43;
+    font-size: 250% !important;
+    background-size: auto 55% !important;
+    padding-right: 30px !important;
+}
+
+
+/*redesign desember 2016*/
+
+.timer {
+  padding: 14px 0;
+  padding-left: 600px;
+}
+
+.timer > div {
+  text-align: left !important;
+}
+
+.header_top .timer {
+  padding: 0;
+  padding-top: 20px;
+  height: 54px;
+}
+
+.header_top .logo {
+  padding-top: 10px;
+}
+
+.header_top .timer-slide-inner,
+.header_top .timer-separator {
+  font-size: 14px !important;
+}
